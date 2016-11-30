@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var add2 = require('..');
+import { expect } from 'chai'
+import add2 from '../dist'
 
 describe('add2', function() {
   it('should add 2 numbers', function() {
