@@ -2,7 +2,7 @@
   "name": "add2",
   "version": "1.0.0",
   "description": "Add two numbers together.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive test",
     "prebuild": "rimraf dist",
