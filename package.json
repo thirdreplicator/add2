@@ -1,0 +1,25 @@
+{
+  "name": "add2",
+  "version": "1.0.0",
+  "description": "Add two numbers together.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirdreplicator/add2.git"
+  },
+  "keywords": [
+    "arithmetic",
+    "addition"
+  ],
+  "author": "David Beckwith <thirdreplicator@gmail.com> (http://davidbeckwith.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thirdreplicator/add2/issues"
+  },
+  "homepage": "https://github.com/thirdreplicator/add2#readme",
+  "dependencies": {
+  }
+}
