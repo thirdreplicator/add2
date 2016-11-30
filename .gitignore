@@ -1,1 +1,6 @@
+dist
+*.swp
 node_modules/
+.DS_Store
+add2*.tgz
+package/

@@ -4,7 +4,9 @@
   "description": "Add two numbers together.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register --recursive test",
+    "prebuild": "rimraf dist",
+    "build": "babel --out-dir dist src"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,25 @@
     "url": "https://github.com/thirdreplicator/add2/issues"
   },
   "homepage": "https://github.com/thirdreplicator/add2#readme",
-  "dependencies": {
+  "files": [
+    "dist",
+    "index.js",
+    "README"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
   }
 }
